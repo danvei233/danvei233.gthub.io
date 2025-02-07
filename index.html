@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>茅之酒馆全CG解锁教程(v0.33b)</title>
+
+  <!-- 引入字体和样式 -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-tomorrow.min.css" rel="stylesheet" />
+
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #111;
+      color: #f0f0f0;
+      margin: 0;
+      padding: 30px;
+    }
+    h1 {
+      text-align: center;
+      color: #3f8efc;
+      margin-bottom: 20px;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #1c1c1c;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    }
+    .step {
+      margin-bottom: 30px;
+    }
+    .step h2 {
+      color: #3f8efc;
+    }
+    .code-block {
+      background: #2e2e2e;
+      border-radius: 6px;
+      padding: 20px;
+      margin: 20px 0;
+      position: relative;
+    }
+    pre {
+      margin: 0;
+      overflow: auto;
+    }
+    .copy-btn {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #3f8efc;
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      border: none;
+      cursor: pointer;
+    }
+    .copy-btn:hover {
+      background: #5a9df2;
+    }
+    .emoji {
+      font-size: 1.5em;
+    }
+    code {
+      background-color: #2e2e2e;
+      border-radius: 6px;
+      padding: 3px 5px;
+      color: #fff;
+    }
+  </style>
+
+  <!-- 引入 prism.js 和 clipboard.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.10/clipboard.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>茅之酒馆全CG解锁教程(v0.33b)</h1>
+
+    <div class="step">
+      <h2>步骤 1: 创建 OpenConsole 文件 📝</h2>
+      <ol>
+        <li>打开游戏文件夹，找到并进入 <code>games</code> 文件夹。</li>
+        <li>在 <code>games</code> 文件夹内，新建一个文件，命名为 <code>OpenConsole.rpy</code>，确保文件后缀是 <code>.rpy</code>。</li>
+        <li>使用文本编辑器打开 <code>OpenConsole.rpy</code> 文件，粘贴以下代码并保存：</li>
+      </ol>
+      <div class="code-block">
+        <button class="copy-btn" data-clipboard-target="#code1">复制代码</button>
+        <pre><code id="code1" class="language-python">
+int 999 python:
+  config.console = true
+        </code></pre>
+      </div>
+    </div>
+
+    <div class="step">
+      <h2>步骤 2: 打开控制台并解锁CG 🔓</h2>
+      <ol>
+        <li>启动游戏，进入游戏主界面。</li>
+        <li>按下 <code>Shift + O</code> 打开控制台。</li>
+        <li>在弹出的控制台中，粘贴以下解锁CG命令：</li>
+      </ol>
+      <div class="code-block">
+        <button class="copy-btn" data-clipboard-target="#code2">复制命令</button>
+        <pre><code id="code2" class="language-python">
+            persistent.CG_goo_lose = True;
+            persistent.CG_witer_bj = True;
+            persistent.CG_bull_lose = True;
+            persistent.CG_bull_winA = True;
+            persistent.CG_bull_winB = True;
+            persistent.CG_bull_winC = True;
+            persistent.CG_tree_lose = True;
+            persistent.CG_ghost_lose = True;
+            persistent.CG_hakan_ride = True;
+            persistent.CG_bull_lick = True;
+            persistent.CG_lizard_win = True;
+            persistent.CG_lizard_lose = True;
+            persistent.CG_gargoyle_lose = True;
+            persistent.CG_gargoyle_bottom = True;
+            persistent.CG_gargoyle_win = True;
+            persistent.CG_roushk_top = True;
+            persistent.CG_roushk_bottom = True;
+            persistent.CG_demonguard_blowjob = True;
+            persistent.CG_demonguard_sex = True;
+            persistent.CG_eyvind_sell = True;
+            persistent.CG_hakan_sixnine = True;
+            persistent.CG_witer_cowboy = True;
+            persistent.CG_yourself_lose = True;
+            persistent.CG_thane_handjob = True;
+            persistent.CG_nauxus_missionary = True;
+            persistent.CG_axel_reward = True;
+            persistent.CG_selye_blowjob = True;
+            persistent.CG_yeti_lose = True;
+            persistent.CG_yeti_winA = True;
+            persistent.CG_mole_lose = True;
+            persistent.CG_nauxus_bottom = True;
+            persistent.CG_axel_sanua = True;
+            persistent.CG_shroomberus_lose = True;
+            persistent.CG_thane_bottom = True;
+            persistent.CG_slime_normal = True;
+            persistent.CG_slime_large = True;
+            persistent.CG_slime_giantgcg = True;
+            persistent.CG_horace_carriage_blowjob = True;
+            persistent.CG_mole_tent = True;
+            persistent.CG_mole_office = True;
+            persistent.CG_mole_infirmary = True;
+            persistent.CG_behir_vore = True;
+            persistent.CG_hw_threesome = True;
+            persistent.CG_superfan_nerd = True;
+            persistent.CG_superfan_jerk = True;
+        </code></pre>
+      </div>
+      <p>粘贴后按回车，所有CG将被直接解锁，享受游戏吧！ 🎮</p>
+    </div>
+
+    <div class="step">
+      <h2>注意事项 ⚠️</h2>
+      <ul>
+        <li>确保文件后缀是 <code>.rpy</code>，否则可能无法正确执行。</li>
+        <li>如果解锁失败，检查游戏版本或尝试重新启动游戏。</li>
+        <li>该方法仅适用于支持控制台命令的版本。</li>
+      </ul>
+    </div>
+
+    <div class="step">
+      <h2>教程完毕 🎉</h2>
+      <p>希望这个教程能够帮助你顺利解锁《茅之酒馆》的所有CG！享受游戏，畅游其中！ 🚀</p>
+    </div>
+  </div>
+
+  <script>
+    // 初始化 Clipboard.js 复制功能
+    new ClipboardJS('.copy-btn');
+  </script>
+</body>
+</html>
